@@ -3,15 +3,12 @@ const express = require('express')
 const routes = express.Router()
 
 
-routes.post('/users', (request, response) =>{
-    const body = request.body
+routes.post('/ongs', (request, response) =>{
+    const {name, email, whatsapp, city, uf} = request.body
+
+   
     
-    console.log(body)
-    
-        return response.send({
-            evento: 'omni',
-            aluno:'diego',
-        })
-    })
+    return response.send()
+})
 
     module.exports = routes
