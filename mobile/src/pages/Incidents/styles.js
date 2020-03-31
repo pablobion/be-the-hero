@@ -16,6 +16,7 @@ export default StyleSheet.create({
         fontSize: 15,
         color: '#737380',
     },
+    
 
     headerTextBold: {
         fontWeight: 'bold'
@@ -33,6 +34,41 @@ export default StyleSheet.create({
         fontSize: 16,
         lineHeight: 24,
         color: '#737380',
-    }
+    },
 
+    incidentList: {
+        marginTop:32,
+    },
+
+    incident: {
+        padding: 24,
+        borderRadius: 8,
+        backgroundColor: 'white',
+        marginBottom: 16,
+    },
+
+    incidentproperty: {
+        fontSize: 14,
+        color: '#41414d',
+        fontWeight: 'bold',
+    },
+
+    incidentValue: {
+        marginTop: 8,
+        fontSize: 15,
+        marginBottom: 24,
+        color: '#737380'
+    },
+
+    detailsButton: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+
+    detailsButtonText: {
+        color: 'red',
+        fontSize: 15,
+        fontWeight: 'bold'
+    }
 })
